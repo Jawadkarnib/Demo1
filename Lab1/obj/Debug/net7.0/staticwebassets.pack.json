@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg",
+      "PackagePath": "staticwebassets\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow1.json",
+      "PackagePath": "staticwebassets\\workflows\\workflow1.json"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow2.json",
+      "PackagePath": "staticwebassets\\workflows\\workflow2.json"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow3.json",
+      "PackagePath": "staticwebassets\\workflows\\workflow3.json"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow4.json",
+      "PackagePath": "staticwebassets\\workflows\\workflow4.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lab1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lab1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Lab1.props",
+      "PackagePath": "build\\Lab1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab1.props",
+      "PackagePath": "buildMultiTargeting\\Lab1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Lab1.props",
+      "PackagePath": "buildTransitive\\Lab1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

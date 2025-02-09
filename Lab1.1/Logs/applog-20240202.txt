@@ -1,0 +1,20 @@
+2024-02-02 09:51:23.706 +02:00 [INF] Now listening on: https://localhost:7053
+2024-02-02 09:51:23.731 +02:00 [INF] Now listening on: http://localhost:5152
+2024-02-02 09:51:23.735 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 09:51:23.735 +02:00 [INF] Hosting environment: Development
+2024-02-02 09:51:23.736 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-02-02 09:51:24.323 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-02-02 09:51:24.479 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 156.5426ms
+2024-02-02 09:51:24.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-02-02 09:51:24.657 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.6299ms
+2024-02-02 09:51:41.140 +02:00 [INF] Application is shutting down...
+2024-02-02 09:51:43.799 +02:00 [INF] Now listening on: https://localhost:7053
+2024-02-02 09:51:43.820 +02:00 [INF] Now listening on: http://localhost:5152
+2024-02-02 09:51:43.822 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-02 09:51:43.823 +02:00 [INF] Hosting environment: Development
+2024-02-02 09:51:43.824 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-02-02 09:51:44.387 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-02-02 09:51:44.522 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 136.8846ms
+2024-02-02 09:51:44.620 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-02-02 09:51:44.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.1121ms
+2024-02-02 09:51:59.910 +02:00 [INF] Application is shutting down...

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "vms+Sp9rOKsTLB9e49nBieZxbibaIq8Hb3js3WauWKk=",
+  "Source": "Lab1.1",
+  "BasePath": "_content/Lab1.1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab1.1\\wwwroot",
+      "Source": "Lab1.1",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.1\\wwwroot\\",
+      "BasePath": "_content/Lab1.1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.1\\wwwroot\\images\\40936f68-08eb-4c78-8793-eea151fa1562.jpeg",
+      "SourceId": "Lab1.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.1\\wwwroot\\",
+      "BasePath": "_content/Lab1.1",
+      "RelativePath": "images/40936f68-08eb-4c78-8793-eea151fa1562.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\40936f68-08eb-4c78-8793-eea151fa1562.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.1\\wwwroot\\images\\549e3910-ee32-4e96-9d0a-5a7aa41f1abd.png",
+      "SourceId": "Lab1.1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.1\\wwwroot\\",
+      "BasePath": "_content/Lab1.1",
+      "RelativePath": "images/549e3910-ee32-4e96-9d0a-5a7aa41f1abd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\549e3910-ee32-4e96-9d0a-5a7aa41f1abd.png"
+    }
+  ]
+}

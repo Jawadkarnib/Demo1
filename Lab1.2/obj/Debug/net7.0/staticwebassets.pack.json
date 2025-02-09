@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.2\\wwwroot\\images\\4b896029-b99a-4369-b05e-8f28272624e9.jpeg",
+      "PackagePath": "staticwebassets\\images\\4b896029-b99a-4369-b05e-8f28272624e9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.2\\wwwroot\\images\\647d614a-0244-46e4-8e45-ec52a784cf7e.jpeg",
+      "PackagePath": "staticwebassets\\images\\647d614a-0244-46e4-8e45-ec52a784cf7e.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.2\\wwwroot\\images\\872d99a4-60db-4646-933e-d39eb3551a04.jpeg",
+      "PackagePath": "staticwebassets\\images\\872d99a4-60db-4646-933e-d39eb3551a04.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.2\\wwwroot\\images\\9c6236cb-ddb9-45f3-a0b8-842ddda5428a.jpeg",
+      "PackagePath": "staticwebassets\\images\\9c6236cb-ddb9-45f3-a0b8-842ddda5428a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1.2\\wwwroot\\images\\a0789a6f-3803-4f6b-a246-1e30c2e6fbb3.jpeg",
+      "PackagePath": "staticwebassets\\images\\a0789a6f-3803-4f6b-a246-1e30c2e6fbb3.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Lab1.2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Lab1.2.props",
+      "PackagePath": "build\\Lab1.2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab1.2.props",
+      "PackagePath": "buildMultiTargeting\\Lab1.2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Lab1.2.props",
+      "PackagePath": "buildTransitive\\Lab1.2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

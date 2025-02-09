@@ -1,0 +1,152 @@
+2024-01-30 12:37:05.230 +02:00 [INF] Middleware Activation: Before UseSerilogRequestLogging
+2024-01-30 12:37:05.293 +02:00 [INF] Middleware Activation: After UseSerilogRequestLogging
+2024-01-30 12:37:05.534 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-30 12:37:05.540 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-30 12:37:05.545 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-30 12:37:05.547 +02:00 [INF] Hosting environment: Development
+2024-01-30 12:37:05.548 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-30 12:37:06.268 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-30 12:37:06.525 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 260.3060ms
+2024-01-30 12:37:06.710 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-30 12:37:06.902 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.5872ms
+2024-01-30 12:37:09.406 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-30 12:37:09.412 +02:00 [INF] Hello incoming request!
+2024-01-30 12:37:09.421 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:37:09.454 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Lab1._1.models.Student] Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-30 12:37:09.469 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lab1._1.models.Student, Lab1.1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-30 12:37:09.496 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 33.5972ms
+2024-01-30 12:37:09.502 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:37:09.507 +02:00 [INF] HTTP GET /api/Student responded 200 in 88.5971 ms
+2024-01-30 12:37:09.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 200 - application/json;+charset=utf-8 104.2686ms
+2024-01-30 12:37:28.804 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/1 - -
+2024-01-30 12:37:28.808 +02:00 [INF] Hello incoming request!
+2024-01-30 12:37:28.810 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:37:28.830 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Lab1._1.models.Student] Get(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-30 12:37:28.937 +02:00 [INF] Executing OkObjectResult, writing value of type 'Lab1._1.models.Student'.
+2024-01-30 12:37:28.940 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 106.1683ms
+2024-01-30 12:37:28.943 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:37:28.945 +02:00 [INF] HTTP GET /api/Student/1 responded 200 in 135.6351 ms
+2024-01-30 12:37:28.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/1 - - - 200 - application/json;+charset=utf-8 144.1365ms
+2024-01-30 12:37:40.414 +02:00 [INF] Application is shutting down...
+2024-01-30 12:44:55.707 +02:00 [INF] Middleware Activation: Before UseSerilogRequestLogging
+2024-01-30 12:44:55.778 +02:00 [INF] Middleware Activation: After UseSerilogRequestLogging
+2024-01-30 12:44:56.039 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-30 12:44:56.045 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-30 12:44:56.050 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-30 12:44:56.052 +02:00 [INF] Hosting environment: Development
+2024-01-30 12:44:56.054 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-30 12:44:56.771 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-30 12:44:56.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 227.2819ms
+2024-01-30 12:44:57.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-30 12:44:57.381 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.5748ms
+2024-01-30 12:45:12.749 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-30 12:45:12.754 +02:00 [INF] Hello incoming request!
+2024-01-30 12:45:12.765 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:45:12.805 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:45:12.810 +02:00 [ERR] HTTP GET /api/Student responded 500 in 49.2986 ms
+System.InvalidOperationException: No service for type 'Lab1._1.Filters.CallerHeaderFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-30 12:45:12.844 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Lab1._1.Filters.CallerHeaderFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Lab1._1.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Middlewares\LoggingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-30 12:45:12.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 500 - text/plain;+charset=utf-8 131.0889ms
+2024-01-30 12:46:52.033 +02:00 [INF] Application is shutting down...
+2024-01-30 12:47:12.001 +02:00 [INF] Middleware Activation: Before UseSerilogRequestLogging
+2024-01-30 12:47:12.064 +02:00 [INF] Middleware Activation: After UseSerilogRequestLogging
+2024-01-30 12:47:12.312 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-30 12:47:12.318 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-30 12:47:12.323 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-30 12:47:12.324 +02:00 [INF] Hosting environment: Development
+2024-01-30 12:47:12.326 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-30 12:47:12.983 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-30 12:47:13.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 229.9275ms
+2024-01-30 12:47:13.392 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-30 12:47:13.581 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.1303ms
+2024-01-30 12:47:17.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-30 12:47:17.544 +02:00 [INF] Hello incoming request!
+2024-01-30 12:47:17.555 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:47:17.578 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:47:17.583 +02:00 [ERR] HTTP GET /api/Student responded 500 in 33.7767 ms
+System.InvalidOperationException: No service for type 'Lab1._1.Filters.CallerHeaderFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-30 12:47:17.620 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Lab1._1.Filters.CallerHeaderFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Lab1._1.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Middlewares\LoggingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-30 12:47:17.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 500 - text/plain;+charset=utf-8 126.1451ms
+2024-01-30 12:53:50.119 +02:00 [INF] Application is shutting down...
+2024-01-30 12:53:55.445 +02:00 [INF] Middleware Activation: Before UseSerilogRequestLogging
+2024-01-30 12:53:55.526 +02:00 [INF] Middleware Activation: After UseSerilogRequestLogging
+2024-01-30 12:53:55.758 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-30 12:53:55.764 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-30 12:53:55.769 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-30 12:53:55.770 +02:00 [INF] Hosting environment: Development
+2024-01-30 12:53:55.772 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-30 12:53:56.483 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-30 12:53:56.702 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 222.5749ms
+2024-01-30 12:53:56.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-30 12:53:57.084 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.1873ms
+2024-01-30 12:55:10.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-30 12:55:10.704 +02:00 [INF] Hello incoming request!
+2024-01-30 12:55:10.712 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:55:10.749 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Lab1._1.models.Student] Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-30 12:55:10.756 +02:00 [WRN] Invalid caller header. Request canceled.
+2024-01-30 12:55:10.766 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-01-30 12:55:10.775 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 17.8132ms
+2024-01-30 12:55:10.781 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-30 12:55:10.785 +02:00 [INF] HTTP GET /api/Student responded 400 in 76.4561 ms
+2024-01-30 12:55:10.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 400 - text/plain;+charset=utf-8 91.7286ms
+2024-01-30 12:56:07.275 +02:00 [INF] Application is shutting down...

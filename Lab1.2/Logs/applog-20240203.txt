@@ -1,0 +1,185 @@
+2024-02-03 14:05:35.108 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:05:35.134 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:05:35.135 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:05:35.136 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:05:35.689 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:05:35.788 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 100.1898ms
+2024-02-03 14:05:35.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:05:35.974 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.1385ms
+2024-02-03 14:05:46.913 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students application/json 52
+2024-02-03 14:05:46.923 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:05:46.927 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:05:46.947 +02:00 [INF] Route matched with {action = "Post", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._2.models.StudentAddDTO) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:05:47.576 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:05:47.580 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Post (Lab1.2) in 629.2941ms
+2024-02-03 14:05:47.582 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:05:47.590 +02:00 [ERR] An error occurred using the connection to database 'AcademyLab1' on server 'localhost\SQLEXPRESS'.
+2024-02-03 14:05:47.591 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students application/json 52 - 200 - text/plain;+charset=utf-8 678.1331ms
+2024-02-03 14:05:47.597 +02:00 [ERR] Exception occurred in CreateStudentHandler: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'ApplicationDbContext'.
+2024-02-03 14:06:15.408 +02:00 [INF] Application is shutting down...
+2024-02-03 14:06:20.649 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:06:20.677 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:06:20.678 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:06:20.679 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:06:20.984 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:06:21.136 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 156.2881ms
+2024-02-03 14:06:21.248 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:06:21.352 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.7873ms
+2024-02-03 14:06:36.865 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students application/json 52
+2024-02-03 14:06:36.871 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:06:36.874 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:06:36.895 +02:00 [INF] Route matched with {action = "Post", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._2.models.StudentAddDTO) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:06:54.597 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:06:54.613 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Post (Lab1.2) in 17707.112ms
+2024-02-03 14:06:54.616 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:06:54.631 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students application/json 52 - 200 - text/plain;+charset=utf-8 17766.2045ms
+2024-02-03 14:06:54.658 +02:00 [ERR] An error occurred using the connection to database 'AcademyLab1' on server 'localhost\SQLEXPRESS'.
+2024-02-03 14:08:50.947 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:08:50.975 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:08:50.976 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:08:50.977 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:08:51.368 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:08:51.499 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 132.4223ms
+2024-02-03 14:08:51.595 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:08:51.692 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.9051ms
+2024-02-03 14:09:00.232 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students application/json 53
+2024-02-03 14:09:00.243 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:09:00.251 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:09:00.296 +02:00 [INF] Route matched with {action = "Post", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._2.models.StudentAddDTO) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:09:16.126 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:09:16.162 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Post (Lab1.2) in 15842.5122ms
+2024-02-03 14:09:16.170 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:09:16.207 +02:00 [ERR] An error occurred using the connection to database 'AcademyLab1' on server 'localhost\SQLEXPRESS'.
+2024-02-03 14:09:16.212 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students application/json 53 - 200 - text/plain;+charset=utf-8 15980.6132ms
+2024-02-03 14:09:25.561 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students application/json 53
+2024-02-03 14:09:25.564 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:09:25.566 +02:00 [INF] Route matched with {action = "Post", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._2.models.StudentAddDTO) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:09:39.656 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:09:39.660 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Post (Lab1.2) in 14089.6618ms
+2024-02-03 14:09:39.662 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:09:39.695 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students application/json 53 - 200 - text/plain;+charset=utf-8 14133.7189ms
+2024-02-03 14:09:39.710 +02:00 [INF] Executed DbCommand (9,340ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Email], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-03 14:13:57.052 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:13:57.139 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:13:57.142 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:13:57.144 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:13:57.262 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:13:57.549 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 290.4946ms
+2024-02-03 14:13:57.756 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:13:57.977 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.4595ms
+2024-02-03 14:14:06.768 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5275/api/Students/6 - -
+2024-02-03 14:14:06.782 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:14:06.791 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Delete (Lab1.2)'
+2024-02-03 14:14:06.842 +02:00 [INF] Route matched with {action = "Delete", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int64) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:14:09.370 +02:00 [INF] Executed DbCommand (69ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Email], [s].[Name]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__p_0
+2024-02-03 14:14:09.654 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Students]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-02-03 14:14:09.687 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:14:09.697 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Delete (Lab1.2) in 2844.5694ms
+2024-02-03 14:14:09.701 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Delete (Lab1.2)'
+2024-02-03 14:14:09.720 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5275/api/Students/6 - - - 200 - text/plain;+charset=utf-8 2951.7066ms
+2024-02-03 14:14:27.087 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 63
+2024-02-03 14:14:27.090 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:14:27.095 +02:00 [INF] Route matched with {action = "ChangeStudentName", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ChangeStudentName(Lab1._2.models.StudentViewModel) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:14:27.218 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_newStudent_StudentId_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Email], [s].[Name]
+FROM [Students] AS [s]
+WHERE [s].[Id] = @__request_newStudent_StudentId_0
+2024-02-03 14:14:27.250 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Students] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-02-03 14:14:27.261 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:14:27.265 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2) in 165.9764ms
+2024-02-03 14:14:27.269 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:14:27.272 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 63 - 200 - text/plain;+charset=utf-8 184.9621ms
+2024-02-03 14:14:40.367 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/api/Students/getdate?language=en-US - -
+2024-02-03 14:14:40.370 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.GetDate (Lab1.2)'
+2024-02-03 14:14:40.374 +02:00 [INF] Route matched with {action = "GetDate", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDate(System.String) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:14:40.400 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-02-03 14:14:40.448 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.GetDate (Lab1.2) in 71.5744ms
+2024-02-03 14:14:40.451 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.GetDate (Lab1.2)'
+2024-02-03 14:14:40.453 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/api/Students/getdate?language=en-US - - - 200 - application/json;+charset=utf-8 86.6841ms
+2024-02-03 14:18:22.194 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:18:22.272 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:18:22.282 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:18:22.285 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:18:22.442 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:18:22.761 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 321.5768ms
+2024-02-03 14:18:22.968 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:18:23.195 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 226.2391ms
+2024-02-03 14:18:27.798 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students application/json 53
+2024-02-03 14:18:27.810 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:18:27.818 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:18:27.863 +02:00 [INF] Route matched with {action = "Post", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._2.models.StudentAddDTO) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:18:29.913 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Students] ([Email], [Name])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-03 14:21:08.577 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-03 14:21:08.599 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Post (Lab1.2) in 160717.1978ms
+2024-02-03 14:21:08.602 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Post (Lab1.2)'
+2024-02-03 14:21:08.617 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students application/json 53 - 200 - text/plain;+charset=utf-8 160819.0279ms
+2024-02-03 14:37:58.705 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:37:58.774 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:37:58.777 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:37:58.779 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:37:58.914 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:37:59.215 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 305.3435ms
+2024-02-03 14:37:59.413 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:37:59.617 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.0493ms
+2024-02-03 14:38:06.579 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 64
+2024-02-03 14:38:06.597 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:38:06.608 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:38:06.664 +02:00 [INF] Route matched with {action = "ChangeStudentName", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ChangeStudentName(Lab1._2.models.StudentViewModel) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:38:06.750 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-02-03 14:38:06.759 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2) in 85.237ms
+2024-02-03 14:38:06.767 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:38:06.770 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 64 - 400 - text/plain;+charset=utf-8 190.4049ms
+2024-02-03 14:38:34.930 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 63
+2024-02-03 14:38:34.936 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:38:34.939 +02:00 [INF] Route matched with {action = "ChangeStudentName", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ChangeStudentName(Lab1._2.models.StudentViewModel) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:38:34.978 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-02-03 14:38:35.001 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2) in 57.6341ms
+2024-02-03 14:38:35.004 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:38:35.006 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 63 - 400 - application/problem+json;+charset=utf-8 77.3442ms
+2024-02-03 14:39:05.815 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 56
+2024-02-03 14:39:05.820 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:39:05.822 +02:00 [INF] Route matched with {action = "ChangeStudentName", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ChangeStudentName(Lab1._2.models.StudentViewModel) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:39:05.827 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-02-03 14:39:05.829 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2) in 4.602ms
+2024-02-03 14:39:05.832 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.ChangeStudentName (Lab1.2)'
+2024-02-03 14:39:05.834 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5275/api/Students/ChangeName application/json 56 - 400 - text/plain;+charset=utf-8 21.6231ms
+2024-02-03 14:40:43.628 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-03 14:40:43.694 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-03 14:40:43.697 +02:00 [INF] Hosting environment: Development
+2024-02-03 14:40:43.698 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-03 14:40:43.873 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-03 14:40:44.199 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 328.7744ms
+2024-02-03 14:40:44.407 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-03 14:40:44.624 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 216.6709ms
+2024-02-03 14:40:50.378 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5275/api/Students/-4 - -
+2024-02-03 14:40:50.392 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-03 14:40:50.400 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.Delete (Lab1.2)'
+2024-02-03 14:40:50.449 +02:00 [INF] Route matched with {action = "Delete", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int64) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-03 14:40:50.486 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-02-03 14:40:50.496 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.Delete (Lab1.2) in 36.2919ms
+2024-02-03 14:40:50.503 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.Delete (Lab1.2)'
+2024-02-03 14:40:50.506 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5275/api/Students/-4 - - - 400 - text/plain;+charset=utf-8 127.4820ms

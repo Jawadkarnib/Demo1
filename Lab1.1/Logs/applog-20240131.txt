@@ -1,0 +1,294 @@
+2024-01-31 12:24:43.667 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 12:24:43.723 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 12:24:43.730 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 12:24:43.732 +02:00 [INF] Hosting environment: Development
+2024-01-31 12:24:43.734 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 12:24:44.563 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 12:24:44.871 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 311.3121ms
+2024-01-31 12:24:45.221 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 12:24:45.397 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.3095ms
+2024-01-31 12:24:50.358 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-31 12:24:50.364 +02:00 [INF] Hello incoming request!
+2024-01-31 12:24:50.373 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 12:24:50.412 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 12:24:50.419 +02:00 [WRN] Invalid caller header. Request canceled.
+2024-01-31 12:24:50.430 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-01-31 12:24:50.439 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 18.8196ms
+2024-01-31 12:24:50.445 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 12:24:50.450 +02:00 [INF] HTTP GET /api/Student responded 400 in 80.6997 ms
+2024-01-31 12:24:50.454 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 400 - text/plain;+charset=utf-8 95.9369ms
+2024-01-31 12:25:20.073 +02:00 [INF] Application is shutting down...
+2024-01-31 12:25:24.784 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 12:25:24.853 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 12:25:24.860 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 12:25:24.863 +02:00 [INF] Hosting environment: Development
+2024-01-31 12:25:24.864 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 12:25:25.051 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 12:25:25.286 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 237.0299ms
+2024-01-31 12:25:25.665 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 12:25:25.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 169.4392ms
+2024-01-31 12:25:29.772 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-31 12:25:29.780 +02:00 [INF] Hello incoming request!
+2024-01-31 12:25:29.794 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 12:25:29.827 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 12:25:29.845 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lab1._1.models.Student, Lab1.1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-31 12:25:29.878 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 41.2894ms
+2024-01-31 12:25:29.884 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 12:25:29.889 +02:00 [INF] HTTP GET /api/Student responded 200 in 101.0687 ms
+2024-01-31 12:25:29.897 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 200 - application/json;+charset=utf-8 122.4375ms
+2024-01-31 12:25:38.485 +02:00 [INF] Application is shutting down...
+2024-01-31 14:55:22.381 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 14:55:22.447 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 14:55:22.453 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 14:55:22.455 +02:00 [INF] Hosting environment: Development
+2024-01-31 14:55:22.457 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 14:55:23.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 14:55:23.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 234.6467ms
+2024-01-31 14:55:23.425 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 14:55:23.603 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.6849ms
+2024-01-31 14:55:41.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/2 - -
+2024-01-31 14:55:41.402 +02:00 [INF] Hello incoming request!
+2024-01-31 14:55:41.413 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 14:55:41.455 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 14:55:41.528 +02:00 [WRN] Invalid caller header. Request canceled.
+2024-01-31 14:55:41.538 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-01-31 14:55:41.546 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 82.9546ms
+2024-01-31 14:55:41.553 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 14:55:41.557 +02:00 [INF] HTTP GET /api/Student/2 responded 400 in 150.1435 ms
+2024-01-31 14:55:41.563 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/2 - - - 400 - text/plain;+charset=utf-8 170.3693ms
+2024-01-31 14:56:06.477 +02:00 [INF] Application is shutting down...
+2024-01-31 14:56:11.729 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 14:56:11.783 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 14:56:11.789 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 14:56:11.791 +02:00 [INF] Hosting environment: Development
+2024-01-31 14:56:11.793 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 14:56:12.435 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 14:56:12.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 226.9398ms
+2024-01-31 14:56:12.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 14:56:13.022 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.7849ms
+2024-01-31 14:56:21.274 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/5 - -
+2024-01-31 14:56:21.284 +02:00 [INF] Hello incoming request!
+2024-01-31 14:56:21.295 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 14:56:21.337 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 14:56:21.394 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 48.3977ms
+2024-01-31 14:56:21.401 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 14:56:21.406 +02:00 [ERR] HTTP GET /api/Student/5 responded 500 in 116.0143 ms
+System.ArgumentException: Student not found. (Parameter 'studentId')
+   at Lab1._1.Services.StudentService.GetStudentById(Int32 studentId) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Services\StudentService.cs:line 26
+   at Lab1._1.Controllers.StudentController.Get(Int32 id) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Controllers\StudenttController.cs:line 41
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-31 14:56:21.673 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Student not found. (Parameter 'studentId')
+   at Lab1._1.Services.StudentService.GetStudentById(Int32 studentId) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Services\StudentService.cs:line 26
+   at Lab1._1.Controllers.StudentController.Get(Int32 id) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Controllers\StudenttController.cs:line 41
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Lab1._1.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Middlewares\LoggingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-31 14:56:21.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/5 - - - 500 - text/plain;+charset=utf-8 422.1054ms
+2024-01-31 15:44:45.200 +02:00 [INF] Application is shutting down...
+2024-01-31 16:02:25.564 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 16:02:25.623 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 16:02:25.630 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 16:02:25.632 +02:00 [INF] Hosting environment: Development
+2024-01-31 16:02:25.633 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 16:02:26.111 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 16:02:26.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 308.5717ms
+2024-01-31 16:02:26.616 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 16:02:26.806 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.0386ms
+2024-01-31 16:02:47.328 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryhp6ICCQS0Qgs1JjY 303630
+2024-01-31 16:02:47.339 +02:00 [INF] Hello incoming request!
+2024-01-31 16:02:47.354 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:02:47.399 +02:00 [INF] Route matched with {action = "UploadMultipleImages", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadMultipleImages(Microsoft.AspNetCore.Http.IFormFile[]) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:02:47.556 +02:00 [WRN] Invalid caller header. Request canceled.
+2024-01-31 16:02:47.569 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-01-31 16:02:47.579 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1) in 170.6107ms
+2024-01-31 16:02:47.586 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:02:47.591 +02:00 [INF] HTTP POST /api/Student/UploadMultipleImages responded 400 in 243.4351 ms
+2024-01-31 16:02:47.601 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryhp6ICCQS0Qgs1JjY 303630 - 400 - text/plain;+charset=utf-8 273.5219ms
+2024-01-31 16:08:33.302 +02:00 [INF] Application is shutting down...
+2024-01-31 16:08:38.201 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 16:08:38.268 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 16:08:38.276 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 16:08:38.278 +02:00 [INF] Hosting environment: Development
+2024-01-31 16:08:38.280 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 16:08:38.950 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 16:08:39.266 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 320.1247ms
+2024-01-31 16:08:39.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 16:08:39.766 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.5285ms
+2024-01-31 16:08:48.372 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-31 16:08:48.378 +02:00 [INF] Hello incoming request!
+2024-01-31 16:08:48.387 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:08:48.416 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:08:48.437 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lab1._1.models.Student, Lab1.1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-31 16:08:48.463 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 39.2566ms
+2024-01-31 16:08:48.469 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:08:48.475 +02:00 [INF] HTTP GET /api/Student responded 200 in 90.5538 ms
+2024-01-31 16:08:48.482 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 200 - application/json;+charset=utf-8 108.8456ms
+2024-01-31 16:09:05.355 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryAVLSr1x9x1aeePbl 303630
+2024-01-31 16:09:05.361 +02:00 [INF] Hello incoming request!
+2024-01-31 16:09:05.363 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:09:05.380 +02:00 [INF] Route matched with {action = "UploadMultipleImages", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadMultipleImages(Microsoft.AspNetCore.Http.IFormFile[]) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:09:05.451 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-01-31 16:09:05.455 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1) in 71.1756ms
+2024-01-31 16:09:05.459 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:09:05.463 +02:00 [INF] HTTP POST /api/Student/UploadMultipleImages responded 400 in 100.5873 ms
+2024-01-31 16:09:05.470 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryAVLSr1x9x1aeePbl 303630 - 400 - text/plain;+charset=utf-8 114.7560ms
+2024-01-31 16:09:17.395 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryoyY6Ij8jAkxDyYII 1754695
+2024-01-31 16:09:17.400 +02:00 [INF] Hello incoming request!
+2024-01-31 16:09:17.402 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:09:17.406 +02:00 [INF] Route matched with {action = "UploadMultipleImages", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UploadMultipleImages(Microsoft.AspNetCore.Http.IFormFile[]) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:09:17.478 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-31 16:09:17.482 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1) in 72.3927ms
+2024-01-31 16:09:17.485 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.UploadMultipleImages (Lab1.1)'
+2024-01-31 16:09:17.488 +02:00 [INF] HTTP POST /api/Student/UploadMultipleImages responded 200 in 86.3445 ms
+2024-01-31 16:09:17.493 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7053/api/Student/UploadMultipleImages multipart/form-data;+boundary=----WebKitFormBoundaryoyY6Ij8jAkxDyYII 1754695 - 200 - text/plain;+charset=utf-8 97.6104ms
+2024-01-31 16:13:27.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/5 - -
+2024-01-31 16:13:27.518 +02:00 [INF] Hello incoming request!
+2024-01-31 16:13:27.520 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:13:27.527 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:13:27.533 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 3.47ms
+2024-01-31 16:13:27.535 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:13:27.537 +02:00 [ERR] HTTP GET /api/Student/5 responded 500 in 17.0559 ms
+Lab1._1.Exceptions.NotFoundException: Student not found.studentId
+   at Lab1._1.Services.StudentService.GetStudentById(Int32 studentId) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Services\StudentService.cs:line 27
+   at Lab1._1.Controllers.StudentController.Get(Int32 id) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Controllers\StudenttController.cs:line 41
+   at lambda_method8(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-01-31 16:13:27.809 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Lab1._1.Exceptions.NotFoundException: Student not found.studentId
+   at Lab1._1.Services.StudentService.GetStudentById(Int32 studentId) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Services\StudentService.cs:line 27
+   at Lab1._1.Controllers.StudentController.Get(Int32 id) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Controllers\StudenttController.cs:line 41
+   at lambda_method8(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Lab1._1.Middlewares.LoggingMiddleware.Invoke(HttpContext context) in C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1\Middlewares\LoggingMiddleware.cs:line 25
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-31 16:13:27.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/5 - - - 500 - text/plain;+charset=utf-8 315.6309ms
+2024-01-31 16:17:52.061 +02:00 [INF] Application is shutting down...
+2024-01-31 16:55:32.252 +02:00 [INF] Now listening on: https://localhost:7053
+2024-01-31 16:55:32.305 +02:00 [INF] Now listening on: http://localhost:5152
+2024-01-31 16:55:32.311 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-31 16:55:32.313 +02:00 [INF] Hosting environment: Development
+2024-01-31 16:55:32.314 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.1
+2024-01-31 16:55:33.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - -
+2024-01-31 16:55:33.564 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - - - 200 - text/html;charset=utf-8 224.9198ms
+2024-01-31 16:55:33.745 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - -
+2024-01-31 16:55:33.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.5827ms
+2024-01-31 16:55:42.630 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student - -
+2024-01-31 16:55:42.637 +02:00 [INF] Hello incoming request!
+2024-01-31 16:55:42.647 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:55:42.682 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:55:42.700 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lab1._1.models.Student, Lab1.1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-31 16:55:42.732 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 41.0272ms
+2024-01-31 16:55:42.738 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:55:42.743 +02:00 [INF] HTTP GET /api/Student responded 200 in 100.4573 ms
+2024-01-31 16:55:42.748 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student - - - 200 - application/json;+charset=utf-8 116.8133ms
+2024-01-31 16:55:50.477 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/1 - -
+2024-01-31 16:55:50.491 +02:00 [INF] Hello incoming request!
+2024-01-31 16:55:50.496 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:55:50.514 +02:00 [INF] Route matched with {action = "Get", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:55:50.533 +02:00 [INF] Executing OkObjectResult, writing value of type 'Lab1._1.models.Student'.
+2024-01-31 16:55:50.536 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Get (Lab1.1) in 18.8879ms
+2024-01-31 16:55:50.539 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Get (Lab1.1)'
+2024-01-31 16:55:50.541 +02:00 [INF] HTTP GET /api/Student/1 responded 200 in 44.8354 ms
+2024-01-31 16:55:50.543 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/1 - - - 200 - application/json;+charset=utf-8 66.3158ms
+2024-01-31 16:56:01.552 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7053/api/Student application/json 64
+2024-01-31 16:56:01.554 +02:00 [INF] Hello incoming request!
+2024-01-31 16:56:01.556 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Post (Lab1.1)'
+2024-01-31 16:56:01.565 +02:00 [INF] Route matched with {action = "Post", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(Lab1._1.models.Student) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:56:01.629 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-31 16:56:01.631 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Post (Lab1.1) in 63.0148ms
+2024-01-31 16:56:01.634 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Post (Lab1.1)'
+2024-01-31 16:56:01.636 +02:00 [INF] HTTP POST /api/Student responded 200 in 80.2678 ms
+2024-01-31 16:56:01.639 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7053/api/Student application/json 64 - 200 - text/plain;+charset=utf-8 86.6398ms
+2024-01-31 16:56:11.590 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7053/api/Student/2 - -
+2024-01-31 16:56:11.594 +02:00 [INF] Hello incoming request!
+2024-01-31 16:56:11.596 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.Delete (Lab1.1)'
+2024-01-31 16:56:11.600 +02:00 [INF] Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(Int32) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:56:11.605 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-31 16:56:11.607 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.Delete (Lab1.1) in 4.5256ms
+2024-01-31 16:56:11.609 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.Delete (Lab1.1)'
+2024-01-31 16:56:11.612 +02:00 [INF] HTTP DELETE /api/Student/2 responded 200 in 16.0562 ms
+2024-01-31 16:56:11.614 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7053/api/Student/2 - - - 200 - text/plain;+charset=utf-8 24.1997ms
+2024-01-31 16:56:21.291 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7053/api/Student/ChangeName application/json 74
+2024-01-31 16:56:21.293 +02:00 [INF] Hello incoming request!
+2024-01-31 16:56:21.294 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.ChangeStudentName (Lab1.1)'
+2024-01-31 16:56:21.299 +02:00 [INF] Route matched with {action = "ChangeStudentName", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ChangeStudentName(Lab1._1.models.StudentViewModel) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:56:21.310 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-31 16:56:21.313 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.ChangeStudentName (Lab1.1) in 10.6834ms
+2024-01-31 16:56:21.315 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.ChangeStudentName (Lab1.1)'
+2024-01-31 16:56:21.317 +02:00 [INF] HTTP POST /api/Student/ChangeName responded 200 in 22.5499 ms
+2024-01-31 16:56:21.320 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7053/api/Student/ChangeName application/json 74 - 200 - text/plain;+charset=utf-8 29.0718ms
+2024-01-31 16:56:32.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/Student/getdate?language=en-US - -
+2024-01-31 16:56:32.759 +02:00 [INF] Hello incoming request!
+2024-01-31 16:56:32.761 +02:00 [INF] Executing endpoint 'Lab1._1.Controllers.StudentController.GetDate (Lab1.1)'
+2024-01-31 16:56:32.765 +02:00 [INF] Route matched with {action = "GetDate", controller = "Student"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetDate(System.String) on controller Lab1._1.Controllers.StudentController (Lab1.1).
+2024-01-31 16:56:32.783 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-31 16:56:32.785 +02:00 [INF] Executed action Lab1._1.Controllers.StudentController.GetDate (Lab1.1) in 16.3644ms
+2024-01-31 16:56:32.788 +02:00 [INF] Executed endpoint 'Lab1._1.Controllers.StudentController.GetDate (Lab1.1)'
+2024-01-31 16:56:32.789 +02:00 [INF] HTTP GET /api/Student/getdate responded 200 in 28.7583 ms
+2024-01-31 16:56:32.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/Student/getdate?language=en-US - - - 200 - text/plain;+charset=utf-8 35.4159ms
+2024-01-31 16:56:42.417 +02:00 [INF] Application is shutting down...

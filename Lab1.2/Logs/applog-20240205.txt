@@ -1,0 +1,38 @@
+2024-02-05 09:48:20.266 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-05 09:48:20.325 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-05 09:48:20.328 +02:00 [INF] Hosting environment: Development
+2024-02-05 09:48:20.330 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-05 09:48:20.435 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-05 09:48:20.686 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 253.7480ms
+2024-02-05 09:48:20.894 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-05 09:48:21.099 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.7475ms
+2024-02-05 09:48:29.663 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/api/Students/getdate?language=en-US - -
+2024-02-05 09:48:29.677 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-05 09:48:29.685 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.GetDate (Lab1.2)'
+2024-02-05 09:48:29.740 +02:00 [INF] Route matched with {action = "GetDate", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDate(System.String) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-05 09:48:29.790 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-05 09:48:29.799 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.GetDate (Lab1.2) in 49.8508ms
+2024-02-05 09:48:29.805 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.GetDate (Lab1.2)'
+2024-02-05 09:48:29.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/api/Students/getdate?language=en-US - - - 200 - text/plain;+charset=utf-8 143.1152ms
+2024-02-05 09:48:36.556 +02:00 [INF] Application is shutting down...
+2024-02-05 10:28:28.718 +02:00 [INF] Now listening on: http://localhost:5275
+2024-02-05 10:28:28.775 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-05 10:28:28.777 +02:00 [INF] Hosting environment: Development
+2024-02-05 10:28:28.779 +02:00 [INF] Content root path: C:\Users\Jawad karnib\Desktop\academy\Backend\.NET\Lab1\Lab1.2
+2024-02-05 10:28:28.931 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/index.html - -
+2024-02-05 10:28:29.187 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/index.html - - - 200 - text/html;charset=utf-8 258.6159ms
+2024-02-05 10:28:29.380 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - -
+2024-02-05 10:28:29.586 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.1111ms
+2024-02-05 10:28:36.296 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5275/api/Students/genericGet?name=jawad - -
+2024-02-05 10:28:36.313 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-02-05 10:28:36.321 +02:00 [INF] Executing endpoint 'Lab1._2.Controllers.StudentsController.GenericGet (Lab1.2)'
+2024-02-05 10:28:36.370 +02:00 [INF] Route matched with {action = "GenericGet", controller = "Students"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenericGet(System.Nullable`1[System.Int32], System.String, System.String) on controller Lab1._2.Controllers.StudentsController (Lab1.2).
+2024-02-05 10:28:39.191 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[@__request_name_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[Email], [s].[Name]
+FROM [Students] AS [s]
+WHERE (@__request_name_0 LIKE N'') OR CHARINDEX(@__request_name_0, [s].[Name]) > 0
+2024-02-05 10:28:39.322 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lab1._2.models.Student, Lab1.2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-05 10:28:39.353 +02:00 [INF] Executed action Lab1._2.Controllers.StudentsController.GenericGet (Lab1.2) in 2974.4881ms
+2024-02-05 10:28:39.357 +02:00 [INF] Executed endpoint 'Lab1._2.Controllers.StudentsController.GenericGet (Lab1.2)'
+2024-02-05 10:28:39.374 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5275/api/Students/genericGet?name=jawad - - - 200 - application/json;+charset=utf-8 3078.0466ms
+2024-02-05 11:19:30.717 +02:00 [INF] Application is shutting down...

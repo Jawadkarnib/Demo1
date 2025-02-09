@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "VqeYQHBTIzFXRbjKHJlQNsj3xkLUeZOFpmX/2XGSaNA=",
+  "Source": "Lab1",
+  "BasePath": "_content/Lab1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab1\\wwwroot",
+      "Source": "Lab1",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "images/41eb2304-4ffa-468d-a8ef-171dcdc5e4c0#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jqzdd38yli",
+      "Integrity": "1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow1.json",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "workflows/workflow1#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rkpicowy4j",
+      "Integrity": "BUJJR454T+iPGoe1pwmBBRoaLjKPg4sNt5r+kVs5+wQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\workflows\\workflow1.json"
+    },
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow2.json",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "workflows/workflow2#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dmq0btwyiy",
+      "Integrity": "xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\workflows\\workflow2.json"
+    },
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow3.json",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "workflows/workflow3#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4hjw47cu2c",
+      "Integrity": "mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo+w45nk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\workflows\\workflow3.json"
+    },
+    {
+      "Identity": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow4.json",
+      "SourceId": "Lab1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\",
+      "BasePath": "_content/Lab1",
+      "RelativePath": "workflows/workflow4#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hqg58u6ugj",
+      "Integrity": "B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo+TWXaD6DA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\workflows\\workflow4.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1754502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Jan 2024 10:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jqzdd38yli.jpeg",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\images\\41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1754502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Jan 2024 10:03:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jqzdd38yli"
+        },
+        {
+          "Name": "label",
+          "Value": "images/41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow1.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow1.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUJJR454T+iPGoe1pwmBBRoaLjKPg4sNt5r+kVs5+wQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUJJR454T+iPGoe1pwmBBRoaLjKPg4sNt5r+kVs5+wQ="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow1.rkpicowy4j.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow1.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BUJJR454T+iPGoe1pwmBBRoaLjKPg4sNt5r+kVs5+wQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rkpicowy4j"
+        },
+        {
+          "Name": "label",
+          "Value": "workflows/workflow1.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BUJJR454T+iPGoe1pwmBBRoaLjKPg4sNt5r+kVs5+wQ="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow2.dmq0btwyiy.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow2.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dmq0btwyiy"
+        },
+        {
+          "Name": "label",
+          "Value": "workflows/workflow2.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow2.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow2.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow3.4hjw47cu2c.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow3.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo+w45nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:33:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4hjw47cu2c"
+        },
+        {
+          "Name": "label",
+          "Value": "workflows/workflow3.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo+w45nk="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow3.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow3.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo+w45nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:33:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo+w45nk="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow4.hqg58u6ugj.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow4.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo+TWXaD6DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hqg58u6ugj"
+        },
+        {
+          "Name": "label",
+          "Value": "workflows/workflow4.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo+TWXaD6DA="
+        }
+      ]
+    },
+    {
+      "Route": "workflows/workflow4.json",
+      "AssetFile": "C:\\Users\\Jawad karnib\\Desktop\\academy\\Backend\\.NET\\Lab1\\Lab1\\wwwroot\\workflows\\workflow4.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo+TWXaD6DA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 11:38:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo+TWXaD6DA="
+        }
+      ]
+    }
+  ]
+}
