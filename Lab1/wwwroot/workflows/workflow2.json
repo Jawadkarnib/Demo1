@@ -1,1 +1,0 @@
-[{"WorkflowName":"workflow2","Rules":[{"RuleName":"CheckCategory","SuccessEvent":"Category is valid","ErrorMessage":"Invalid category","Expression":"input.category == \"electronics\"","RuleExpressionType":"LambdaExpression"}]}]

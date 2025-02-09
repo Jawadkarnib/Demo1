@@ -12,53 +12,5 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jqzdd38yli"},{"Name":"integrity","Value":"sha256-1fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ="},{"Name":"label","Value":"_content/Lab1/images/41eb2304-4ffa-468d-a8ef-171dcdc5e4c0.jpeg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1754502"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221fCeQWyoIC7vRYeHB58T7XbPWzSNZS/XiXmaeBfViKQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Jan 2024 10:03:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow1.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow1.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BUJJR454T\u002BiPGoe1pwmBBRoaLjKPg4sNt5r\u002BkVs5\u002BwQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"209"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022BUJJR454T\u002BiPGoe1pwmBBRoaLjKPg4sNt5r\u002BkVs5\u002BwQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:31:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow1.rkpicowy4j.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow1.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rkpicowy4j"},{"Name":"integrity","Value":"sha256-BUJJR454T\u002BiPGoe1pwmBBRoaLjKPg4sNt5r\u002BkVs5\u002BwQ="},{"Name":"label","Value":"_content/Lab1/workflows/workflow1.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"209"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022BUJJR454T\u002BiPGoe1pwmBBRoaLjKPg4sNt5r\u002BkVs5\u002BwQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:31:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow2.dmq0btwyiy.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow2.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dmq0btwyiy"},{"Name":"integrity","Value":"sha256-xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU="},{"Name":"label","Value":"_content/Lab1/workflows/workflow2.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"227"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:32:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow2.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow2.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"227"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022xYU/03yPgDMuRQ1NU4KqVBPqy2mcF0MYiwGN8/esAxU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:32:59 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow3.4hjw47cu2c.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow3.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4hjw47cu2c"},{"Name":"integrity","Value":"sha256-mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo\u002Bw45nk="},{"Name":"label","Value":"_content/Lab1/workflows/workflow3.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"209"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo\u002Bw45nk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:33:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow3.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow3.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo\u002Bw45nk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"209"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022mGraEYmEhq92T913St6kT/PUXJyjyNxrEfLgo\u002Bw45nk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:33:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow4.hqg58u6ugj.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow4.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hqg58u6ugj"},{"Name":"integrity","Value":"sha256-B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo\u002BTWXaD6DA="},{"Name":"label","Value":"_content/Lab1/workflows/workflow4.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"210"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo\u002BTWXaD6DA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:38:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Lab1/workflows/workflow4.json">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\workflows\workflow4.json'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo\u002BTWXaD6DA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"210"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022B/wttfK9Dw/ED9ZJlhApU6eritBME96Imo\u002BTWXaD6DA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Feb 2025 11:38:51 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

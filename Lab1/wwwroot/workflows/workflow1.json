@@ -1,1 +1,0 @@
-[{"WorkflowName":"workflow1","Rules":[{"RuleName":"CheckAmount","SuccessEvent":"Amount is valid","ErrorMessage":"Amount is too low","Expression":"input.amount > 100","RuleExpressionType":"LambdaExpression"}]}]
